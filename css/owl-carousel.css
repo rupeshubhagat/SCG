@@ -1,0 +1,36 @@
+#owl-carousel-we-can-help .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 50% !important;
+}
+
+#owl-carousel-we-can-help button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+#owl-carousel-we-can-help .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ba2424;
+}
+
+#owl-carousel-we-can-help .owl-nav {
+    margin-top: 0px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    width: 100%;
+}
+
+#owl-carousel-we-can-help .owl-nav button.owl-next {
+    position: absolute;
+    right: -26px;
+    top: 0;
+}
+
+#owl-carousel-we-can-help .owl-nav button.owl-prev {
+    position: absolute;
+    left: -24px;
+    top: 0;
+}

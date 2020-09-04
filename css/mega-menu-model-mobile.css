@@ -1,0 +1,111 @@
+.mega-menu-model-mobile .modal.left .modal-dialog,
+.mega-menu-model-mobile .modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.mega-menu-model-mobile .modal.left .modal-content,
+.mega-menu-model-mobile .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.mega-menu-model-mobile .modal.left .modal-body,
+.mega-menu-model-mobile .modal.right .modal-body {
+    padding: 0px;
+}
+
+
+/*Left*/
+
+.mega-menu-model-mobile .modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.mega-menu-model-mobile .modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+
+/*Right*/
+
+.mega-menu-model-mobile .modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.mega-menu-model-mobile .modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+
+/* ----- MODAL STYLE ----- */
+
+.mega-menu-model-mobile .modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.mega-menu-model-mobile .modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+
+/* /mega menu css for card : */
+
+.card-header__megamenu-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-down {
+    position: relative;
+    width: 25px;
+    height: 20px;
+}
+
+.icon-down:after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/icon-down.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.icon-up {
+    position: relative;
+    width: 25px;
+    height: 20px;
+}
+
+.icon-up:after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/icon-up.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+
+/* card css ends */

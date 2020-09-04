@@ -1,0 +1,176 @@
+/* Banner Section */
+
+.banner-section {
+    position: relative;
+}
+
+.banner-section .banner-section__top-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-section .banner-section-carousel .banner-section-carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-section .banner-section__top {
+    text-align: center;
+    top: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 100%;
+}
+
+.banner-section .banner-section__top h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.banner-section .banner-section__top h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.banner-section .banner-section__top p a {
+    margin-bottom: 10px;
+}
+
+
+/* We Are Section */
+
+.we-are-section {
+    background-color: #ffffff;
+}
+
+.we-are-section .we-are-section__top {
+    padding: 56px 0px 32px;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.we-are-section .we-are-section__top .we-are-caption-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #ba2424;
+    margin-bottom: 24px;
+}
+
+.we-are-section .we-are-section__top .we-are-caption-title .we-are {
+    font-size: 20px;
+}
+
+.we-are-section .we-are-section__top .we-are-caption-title .we-are-bigtitle {
+    font-weight: 700;
+}
+
+.we-are-section .we-are-section__top .we-are-caption-title .we-are-smalltitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.we-are-section .we-are-section__bottom {}
+
+.we-are-section .we-are-section__top .we-are-caption-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 21px;
+    color: #363636;
+}
+
+
+/* Media Query home page all section */
+
+
+/* laptop */
+
+@media screen and (max-width: 1199.98px) {}
+
+
+/* tablet */
+
+@media screen and (max-width: 991.98px) {
+    .banner-section .banner-section__top h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .banner-section .banner-section__top h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+
+/* /mobile */
+
+@media screen and (max-width: 767.98px) {
+    .banner-section .banner-section-carousel .banner-section-carousel-inner .carousel-item img {
+        width: 100%;
+        height: 240px;
+    }
+    .banner-section .banner-section__top h2 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .banner-section .banner-section__top h4 {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .banner-section .banner-section__top p a {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 8px 21px;
+    }
+    /* we-are section */
+    .we-are-section .we-are-section__top {
+        padding: 16px 0px 16px;
+    }
+    .we-are-section .we-are-section__top .we-are-caption-title {
+        font-size: 17px;
+    }
+    .we-are-section .we-are-section__top .we-are-caption-title .we-are-smalltitle {
+        font-size: 23px;
+    }
+    .we-are-section .we-are-section__top .we-are-caption-title .we-are-bigtitle {
+        font-size: 23px;
+    }
+    .we-are-section .we-are-section__top .we-are-caption-title .we-are {
+        line-height: 26px;
+        display: block;
+        font-size: 17px;
+    }
+    .we-are-section .we-are-section__top .we-are-caption-title .we-are-mobile {
+        display: inline-block !important;
+    }
+    .we-are-section .we-are-section__top .we-are-caption-subtitle {
+        font-size: 14px;
+    }
+}
+
+
+/*MIn */
+
+@media (min-width: 767px) {}
+
+
+/* Media query ends.. */

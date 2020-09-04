@@ -1,0 +1,77 @@
+.usp-whyus-list {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.usp-whyus-list li {
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.whyus-lists-blogs {}
+
+.whyus-lists-box__bottom {
+    padding: 10px 20px 10px;
+}
+
+.why-us-title {
+    padding: 10px 27px 10px;
+    background-image: url("../images/why-us-bg-tittle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    margin-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.why-us-title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.why-us-construction {
+    border: solid 0.5px #e4e4e4;
+    background-image: linear-gradient(to bottom, #0d3757, #235877);
+}
+
+
+/* media query */
+
+
+/* laptop */
+
+@media screen and (max-width: 1199.98px) {}
+
+
+/* tablet */
+
+@media screen and (max-width: 991.98px) {}
+
+
+/* /mobile */
+
+@media screen and (max-width: 767.98px) {
+    .usp-whyus-list li {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+
+/* // MIn */
+
+@media (min-width: 767px) {}

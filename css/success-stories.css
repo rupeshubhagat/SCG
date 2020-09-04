@@ -1,0 +1,230 @@
+.success-stories {
+    background-color: #f2f2f2;
+}
+
+.success-stories .success-stories__top {
+    padding: 56px 0px 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.success-stories .success-stories__top .success-stories-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #101010;
+}
+
+.success-stories .success-stories__top p .find-out-more {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ba2424;
+    padding-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/********** */
+
+.success-stories .success-stories__bottom {
+    padding: 0px 40px 56px;
+}
+
+.usp-common-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.usp-common-card li {
+    width: 48%;
+    box-shadow: 0 3px 10px 0 rgba(106, 52, 32, 0.2);
+    background-color: #ffffff;
+}
+
+.usp-common-card__modifier {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.usp-common-card__modifier li {
+    width: 30%;
+    margin-bottom: 40px;
+    box-shadow: 0 3px 10px 0 rgba(106, 52, 32, 0.2);
+    background-color: #ffffff;
+}
+
+.usp-common-card__modifier .common-card-blog .common-card-blog__content .common-card-blog-subtitle {
+    min-height: auto;
+}
+
+.common-card-blog {
+    width: 100%;
+}
+
+.common-card-blog {
+    width: 100%;
+    border-radius: 5px;
+    /* box-shadow: 0 3px 10px 0 rgba(106, 52, 32, 0.2);
+    background-color: #ffffff; */
+}
+
+.common-card-blog .common-card-blog__img-box {
+    position: relative;
+}
+
+.common-card-blog .common-card-blog__img-box a {
+    text-decoration: none;
+}
+
+.common-card-blog .common-card-blog__img-box a img {
+    width: 100%;
+}
+
+.common-card-blog .common-card-blog__content {
+    padding: 10px 12px 8px;
+}
+
+.common-card-blog .common-card-blog__content .common-card-blog-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.common-card-blog .common-card-blog__content .common-card-blog-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.common-card-blog .common-card-blog__content .read-more-para {
+    margin-top: 12px;
+}
+
+.common-card-blog .common-card-blog__content .card-name-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #363636;
+    margin-bottom: 8px;
+}
+
+.common-card-blog .common-card-blog__content .client-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.common-card-blog .common-card-blog__content .client-contact a {
+    margin-right: 10px;
+}
+
+.common-card-blog .common-card-blog__content .client-contact span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #363636;
+}
+
+
+/* media query */
+
+
+/* laptop */
+
+@media screen and (max-width: 1199.98px) {
+    .usp-common-card__modifier .common-card-blog .common-card-blog__content .common-card-blog-title {
+        min-height: 51px;
+    }
+    .common-card-blog .common-card-blog__content .common-card-blog-title {
+        min-height: 51px;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (max-width: 991.98px) {
+    .common-card-blog .common-card-blog__content .common-card-blog-subtitle {
+        min-height: 135px;
+    }
+    .usp-common-card__modifier .common-card-blog .common-card-blog__content .common-card-blog-title {
+        min-height: 51px;
+    }
+    .common-card-blog .common-card-blog__content .common-card-blog-title {
+        min-height: 51px;
+    }
+}
+
+
+/* /mobile */
+
+@media screen and (max-width: 767.98px) {
+    .common-card-blog .common-card-blog__content .common-card-blog-subtitle {
+        min-height: 135px;
+    }
+    .success-stories .success-stories__top {
+        padding: 32px 0px 24px 0px;
+    }
+    .success-stories .success-stories__top .success-stories-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #363636;
+    }
+    .success-stories .success-stories__top p .find-out-more {
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 0px;
+    }
+    .success-stories .success-stories__bottom {
+        padding: 0px;
+    }
+    .usp-common-card li {
+        width: 100%;
+        margin-bottom: 38px;
+    }
+    .usp-common-card__modifier .common-card-blog .common-card-blog__content .common-card-blog-title {
+        min-height: auto;
+    }
+    .usp-common-card__modifier li {
+        width: 100%;
+        margin-bottom: 38px;
+    }
+    .common-card-blog .common-card-blog__content .common-card-blog-title {
+        min-height: auto;
+    }
+}
+
+
+/* // MIn */
+
+@media (min-width: 767px) {}
+
+
+/* header coding ends */
+
+
+/* Media Query footer ends  */
+
+
+/* Media query ends.. */

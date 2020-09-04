@@ -1,0 +1,219 @@
+.text-color-white {
+    color: #ffffff !important;
+}
+
+.learn-more-btn {
+    padding: 14px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: #ba2424;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.learn-more-btn:hover {
+    background-color: #ba2424;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.term-and-privacy {
+    padding: 11px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    background-color: #ba2424;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    display: inline-block;
+    min-width: 209px;
+    border-radius: 5px;
+    min-width: 200px;
+    border-radius: 14px;
+    text-align: center;
+    border: 2px solid #ba2424;
+    transition: all .5s ease;
+}
+
+.term-and-privacy:hover {
+    background-color: #000;
+    border: 2px solid #707070;
+    color: #707070;
+    text-decoration: none;
+}
+
+.btn-anergy-storage {
+    padding: 11px 40px;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 14px;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.btn-anergy-storage:hover {
+    transition: all .5s ease;
+    background-color: #ba2424;
+    color: #ffffff;
+}
+
+.term-and-privacy__modifier {
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    color: #707070;
+    transition: all .5s ease;
+    padding: 4px 8px !important;
+}
+
+.term-and-privacy__modifier:hover {
+    border: solid 1px #ba2424;
+    background-color: #ffffff;
+    color: #ba2424;
+    /* min-width: auto; */
+    padding: 4px 8px !important;
+}
+
+
+/* Read More link */
+
+.read-more-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 19px;
+    color: #ba2424;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .5s ease;
+}
+
+.read-more-link:hover {
+    color: #ba2424;
+    text-decoration: none;
+}
+
+
+/* Breadcrumb */
+
+.breadcrumb-section {
+    background-color: #f2f2f2;
+}
+
+.breadcrumb {
+    background-color: #f2f2f2;
+}
+
+.breadcrumb-item.active {
+    color: #ba2424 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.breadcrumb-item a {
+    color: #ba2424;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+    color: #ba2424 !important;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.load-more-link {
+    border-radius: 20px;
+}
+
+.download-catalog-links {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #579dd1;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 24px 9px 24px;
+    border-radius: 20px;
+    transition: all .5s ease;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.download-catalog-links:hover {
+    background-color: #579dd1;
+    color: #ffffff;
+}
+
+.box-shadow {
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgba(106, 52, 32, 0.2);
+    background-color: #ffffff;
+    margin-bottom: 20px !important;
+    min-height: 440px;
+}
+
+
+/* media query */
+
+
+/* laptop */
+
+@media screen and (max-width: 1199.98px) {
+    .read-more-link {
+        font-size: 18px;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (max-width: 991.98px) {
+    .read-more-link {
+        font-size: 18px;
+    }
+}
+
+
+/* /mobile */
+
+@media screen and (max-width: 767.98px) {
+    .read-more-link {
+        font-size: 16px;
+    }
+}
+
+
+/* // MIn */
+
+@media (min-width: 767px) {}
+
+
+/* Media query ends.. */

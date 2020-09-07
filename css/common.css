@@ -208,6 +208,16 @@
     .read-more-link {
         font-size: 16px;
     }
+    .breadcrumb-item a {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-decoration: underline;
+    }
+    .breadcrumb-item.active {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 
 
